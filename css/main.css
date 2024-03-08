@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+   
 .navbar{ background:#38da8c;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
@@ -121,4 +127,56 @@
    }
    .blog .card-body{
     padding: 1em;
+   }
+
+   .team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    color:#33e4a0;
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background: #39da8d;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+    
+   }
+
+   .team .item:hover .des{
+    height: 100%;
+    background:#38da8ccb;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+   }
+
+   .contact-form{
+    margin: 6em 0;
+    position: relative;  
+   }
+   
+   .contact-form h1{
+    padding:2em 1px;
+    color: #33e4a0; 
+   }
+   .contact-form .right{
+    max-width: 600px;
+   }
+   .contact-form .right .btn-secondary{
+    background:  #33e4a0;
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
    }
